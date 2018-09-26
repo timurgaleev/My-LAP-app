@@ -4,8 +4,8 @@ MAINTAINER Timur Galeev <timur_galeev@outlook.com>
 
 LABEL Description="Docker LAP" \
 	License="Apache License 2.0" \
-	Usage="docker run -d -p [HOST WWW PORT NUMBER]:80 -v [HOST WWW DOCUMENT ROOT]:/var/www/html timurgaleev/lamp" \
-	Version="1.0"
+	Usage="docker run -d -p [HOST WWW PORT NUMBER]:80 -v [HOST WWW DOCUMENT ROOT]:/var/www/html timurgaleev/my-lap-app" \
+	Version="1.1"
 
 RUN apt-get update
 RUN apt-get upgrade -y
